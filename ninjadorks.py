@@ -10,7 +10,7 @@ API_KEY_GOOGLE = os.getenv("API_KEY_GOOGLE")
 SEARCH_ENGINE_ID = os.getenv("SEARCH_ENGINE_ID")
 
 # Definir la consulta de búsqueda que será usada para encontrar información específica en Google.
-query = 'fivan vazquez'
+query = 'lo que se buscara'
 
 # Crear una instancia de GoogleSearch con la API y el ID del motor de búsqueda proporcionados.
 gsearch = GoogleSearch(API_KEY_GOOGLE, SEARCH_ENGINE_ID)
